@@ -1,2 +1,95 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.holder :nth-child(1) { order: 2; }
+.holder :nth-child(2) { order: 3; }
+.holder :nth-child(3) { order: 1; }
+
+
+.item1{
+	background-color: red;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+}
+
+.item2{
+	background-color: blue;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+}
+
+.item3{
+	background-color: green;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+}
+
+.holder1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.item7{
+	background-color: red;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+	flex-wrap: wrap;
+}
+
+.item8{
+	background-color: blue;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+	flex-wrap: wrap;
+}
+
+.item9{
+	background-color: green;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+	flex-wrap: wrap;
+}
+.item4{
+	background-color: red;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+	flex-wrap: wrap;
+}
+
+.item5{
+	background-color: blue;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+	flex-wrap: wrap;
+}
+
+.item6{
+	background-color: green;
+	width: 15%;
+	font-size: 30px;
+	color: black;
+	height: 100px;
+	flex-wrap: wrap;
+}
